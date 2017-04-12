@@ -1,0 +1,12 @@
+<h3>New Student Form:</h3>
+
+ <%= form_tag( students_path ) %>
+ <!-- need to use form_tag helpers in this lab -->
+ <label>First Name: <%= text_field_tag( 'first_name' ) %></label>
+ <br>
+ <br>
+ <label>Last Name: <%= text_field_tag( 'last_name' ) %></label>
+ <br>
+ <br>
+ <%= submit_tag( "Submit Student" ) %>
+ </form>
